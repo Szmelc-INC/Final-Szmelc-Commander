@@ -35,3 +35,18 @@ Then you can to run installer in scripts with less code
 ```sh
 sh -c "$(curl -fsSL $SC_GH_RAW/init.sh)"
 ```
+
+> ### Base64 runner
+> [Online encoder/decoder](https://www.base64encode.org/)
+```sh
+sh -c 'export B64="<Base64_String_Here>"; sh -c "$(echo $B64 | base64 -d)"'
+```
+
+> Export
+```sh
+export B64="<Base64_String_Here>"
+```
+> Run from `$B64`
+```sh
+sh -c "$(echo $B64 | base64 -d)"
+```
