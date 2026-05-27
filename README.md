@@ -25,3 +25,13 @@ ostateczny szmelc commander szmelc commanderów!!!
 > # Init script ($SZMELC_COMMANDER_GH_RAW/init.sh)
 > https://raw.githubusercontent.com/Szmelc-INC/Final-Szmelc-Commander/refs/heads/main/init.sh
 > ```
+
+> ### Exports
+> Main GitHub RAW URL `SC_GH_RAW`
+```sh
+export SC_GH_RAW="https://raw.githubusercontent.com/Szmelc-INC/Final-Szmelc-Commander/refs/heads/main"
+```
+Then you can to run installer in scripts with less code
+```sh
+sh -c "$(curl -fsSL $SC_GH_RAW/init.sh)"
+```
