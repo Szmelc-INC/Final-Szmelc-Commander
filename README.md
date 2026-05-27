@@ -5,10 +5,14 @@
 
 > # Setup
 > ## Online installer
+> Szmelc.com (short-form)
+> ```sh
+> sh -c "$(curl -fsSL https://szmelc.com/commander/)"
+> ```
+> OG GitHub (long-form)
 > ```bash
 > sh -c "$(curl -fsSL https://raw.githubusercontent.com/Szmelc-INC/Final-Szmelc-Commander/refs/heads/main/init.sh)"
 > ```
-> 
 > ## Add `szmelc` Alias to shell
 > ```bash
 > echo 'alias szmelc='\''sh -c "$(curl -fsSL https://raw.githubusercontent.com/Szmelc-INC/Final-Szmelc-Commander/refs/heads/main/init.sh)"'\''' >> "$HOME/.${SHELL##*/}rc" && echo "✓ Alias added. Restart your terminal or run: source \$HOME/.${SHELL##*/}rc"
