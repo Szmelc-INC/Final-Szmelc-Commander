@@ -4,9 +4,14 @@ ostateczny szmelc commander szmelc commanderów!!!
 ---
 
 # === Setup ===
-> ## Run
+> ## Online installer
 > ```bash
 > sh -c "$(curl https://raw.githubusercontent.com/Szmelc-INC/Final-Szmelc-Commander/refs/heads/main/init.sh)"
+> ```
+> 
+> ## Add `szmelc` Alias
+> ```bash
+> echo "alias szmelc='sh -c "$(curl https://raw.githubusercontent.com/Szmelc-INC/Final-Szmelc-Commander/refs/heads/main/init.sh)"' >> $HOME/.$0rc
 > ```
 
 ---
