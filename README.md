@@ -6,7 +6,7 @@ ostateczny szmelc commander szmelc commanderów!!!
 # === Setup ===
 > ## Run
 > ```bash
-> sh -c "curl https://raw.githubusercontent.com/Szmelc-INC/Final-Szmelc-Commander/refs/heads/main/init.sh"
+> sh -c "$(curl https://raw.githubusercontent.com/Szmelc-INC/Final-Szmelc-Commander/refs/heads/main/init.sh)"
 > ```
 
 ---
