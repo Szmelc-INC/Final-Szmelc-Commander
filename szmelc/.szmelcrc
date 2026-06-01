@@ -1,8 +1,20 @@
 # Szmelc RunCommand (.szmelcrc)
 # Source it in your .bashrc or .zshrc (source $HOME/.szmelc/.szmelcrc)
 
-# Szmelc Version
+# ========== MAIN ==========
+# Version
 export SZMELC="v1"
 
+# ========== PATHS ==========
+# Szmelc Home
+export SZMELC_HOME="$HOME/.szmelc"
+# Szmelc Bin
+export SZMELC_BIN="$SZMELC_HOME/bin"
+# Add ~/.szmelc/bin to $PATH
+export PATH="$HOME/.szmelc/bin:$PATH"
+# Szmelc ZSH
+export SZMELC_ZSH="$SZMELC_HOME/zsh"
+
+# ========== ALIASES ==========
 # Alias szmelc (run szmelc init.sh)
 alias szmelc='sh -c "$(curl -fsSL https://raw.githubusercontent.com/Szmelc-INC/Final-Szmelc-Commander/refs/heads/main/init.sh)"'
